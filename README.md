@@ -9,7 +9,7 @@ transición, imágenes con `alt` y un formulario accesible con `label`.
 
 - **Autor:** Ángel Sabato
 - **GitHub:** <https://github.com/SabatoCom24212>
-- **URL publicada:**
+- **URL publicada:** <https://pfo1-frontend-sabato.vercel.app/>
 
 ## Cómo está construida
 

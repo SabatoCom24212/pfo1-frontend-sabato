@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ángel Sabato · Portfolio</title>
+  <meta name="description" content="Portfolio personal de Ángel Sabato: desarrollo de software, ciencia de datos, machine learning, testing y ciberseguridad.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <nav class="terminal-nav" aria-label="Navegación principal">
+      <div class="terminal-nav__bar" aria-hidden="true">
+        <span class="dot dot--red"></span>
+        <span class="dot dot--amber"></span>
+        <span class="dot dot--cyan"></span>
+      </div>
+      <p class="terminal-nav__prompt"><span class="prompt-user">angel</span><span class="prompt-at">@</span><span class="prompt-host">portfolio</span><span class="prompt-sep">:~$</span></p>
+      <ul class="terminal-nav__links">
+        <li><a href="#inicio">inicio</a></li>
+        <li><a href="#sobre-mi">whoami</a></li>
+        <li><a href="#habilidades">skills</a></li>
+        <li><a href="#formacion">log</a></li>
+        <li><a href="#contacto">contact</a></li>
+      </ul>
+      <a class="terminal-nav__github" href="https://github.com/SabatoCom24212" target="_blank" rel="noopener noreferrer" aria-label="Ver el perfil de GitHub de Ángel Sabato (se abre en una pestaña nueva)">
+        <svg class="icon-github" viewBox="0 0 16 16" width="18" height="18" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+          0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+          1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+          0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68
+          0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15
+          0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38
+          A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+        </svg>
+        <span>github.com/SabatoCom24212</span>
+      </a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ===== HERO ===== -->
+    <section id="inicio" class="hero" aria-labelledby="hero-title">
+      <div class="hero__terminal">
+        <div class="hero__terminal-bar" aria-hidden="true">
+          <span class="dot dot--red"></span><span class="dot dot--amber"></span><span class="dot dot--cyan"></span>
+          <span class="hero__terminal-title">boot_sequence.sh</span>
+        </div>
+        <div class="hero__terminal-body">
+          <p class="typeline typeline--1"><span class="prompt">$</span> whoami</p>
+          <h1 id="hero-title" class="typeline typeline--2">Ángel Sabato</h1>
+          <p class="typeline typeline--3"><span class="prompt">$</span> cat intereses.txt</p>
+          <p class="typeline typeline--4 hero__bio">Mi nombre es Ángel Sabato. Estoy interesado en distintas áreas vinculadas al desarrollo de software, desde Ciencia de Datos y Machine Learning hasta el Testing y la Ciberseguridad.</p>
+          <p class="typeline typeline--5"><span class="prompt">$</span> <span class="cursor" aria-hidden="true">_</span></p>
+        </div>
+      </div>
+
+      <div class="hero__side">
+        <img src="assets/hero-terminal.svg" alt="Ilustración de una terminal con un gráfico de barras, un candado y un símbolo de bug conectados entre sí, representando las áreas de interés de Ángel: datos, ciberseguridad y testing." class="hero__illustration" width="560" height="420">
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="https://github.com/SabatoCom24212" target="_blank" rel="noopener noreferrer">Ver GitHub</a>
+          <a class="btn btn--ghost" href="#contacto">Enviar mensaje</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE MI ===== -->
+    <section id="sobre-mi" class="about" aria-labelledby="about-title">
+      <p class="eyebrow">$ whoami --verbose</p>
+      <h2 id="about-title">Sobre mí</h2>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>Estudio la <strong>Tecnicatura Superior en Desarrollo de Software</strong> y la <strong>Licenciatura en Ciberdefensa</strong>. Me interesa entender un problema desde varios ángulos: cómo se modelan los datos, cómo se prueba que un sistema funciona y cómo se protege de lo que puede salir mal.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HABILIDADES ===== -->
+    <section id="habilidades" class="skills" aria-labelledby="skills-title">
+      <p class="eyebrow">$ cat skills.json</p>
+      <h2 id="skills-title">Tecnologías</h2>
+
+      <div class="skills__grid">
+
+        <div class="skills__group">
+          <h3>Lenguajes</h3>
+          <ul class="chip-list">
+            <li class="chip">Python</li>
+            <li class="chip">TypeScript</li>
+            <li class="chip">C#</li>
+            <li class="chip">Kotlin</li>
+          </ul>
+        </div>
+
+        <div class="skills__group">
+          <h3>Frontend &amp; frameworks</h3>
+          <ul class="chip-list">
+            <li class="chip">HTML</li>
+            <li class="chip">CSS</li>
+            <li class="chip">Tailwind</li>
+            <li class="chip">Next.js</li>
+            <li class="chip">Astro</li>
+            <li class="chip">Svelte</li>
+            <li class="chip">MDX</li>
+          </ul>
+        </div>
+
+        <div class="skills__group">
+          <h3>Backend &amp; runtime</h3>
+          <ul class="chip-list">
+            <li class="chip">Node.js</li>
+          </ul>
+        </div>
+
+        <div class="skills__group">
+          <h3>Datos &amp; machine learning</h3>
+          <ul class="chip-list">
+            <li class="chip">Jupyter Notebook</li>
+            <li class="chip">Pandas</li>
+            <li class="chip">NumPy</li>
+            <li class="chip">Matplotlib</li>
+            <li class="chip">Seaborn</li>
+            <li class="chip">Plotly</li>
+            <li class="chip">Scikit-learn</li>
+            <li class="chip">Quarto</li>
+            <li class="chip">TeX</li>
+            <li class="chip">Groq</li>
+            <li class="chip">Hugging Face</li>
+          </ul>
+        </div>
+
+        <div class="skills__group">
+          <h3>Testing &amp; automatización</h3>
+          <ul class="chip-list">
+            <li class="chip">Selenium</li>
+            <li class="chip">Scrapy</li>
+          </ul>
+        </div>
+
+        <div class="skills__group">
+          <h3>Bases de datos</h3>
+          <ul class="chip-list">
+            <li class="chip">SQLite</li>
+            <li class="chip">PostgreSQL</li>
+            <li class="chip">MySQL</li>
+            <li class="chip">Neon Postgres</li>
+            <li class="chip">Supabase</li>
+          </ul>
+        </div>
+
+        <div class="skills__group">
+          <h3>Herramientas &amp; entornos</h3>
+          <ul class="chip-list">
+            <li class="chip">Git</li>
+            <li class="chip">VS Code</li>
+            <li class="chip">Visual Studio</li>
+            <li class="chip">Android Studio</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== FORMACION CONTINUA ===== -->
+    <section id="formacion" class="timeline-section" aria-labelledby="timeline-title">
+      <p class="eyebrow">$ git log --formacion-continua</p>
+      <h2 id="timeline-title">Formación continua</h2>
+
+      <ol class="timeline">
+
+        <li class="timeline__item">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__card">
+            <p class="timeline__date">2° cuatrimestre 2023</p>
+            <h3 class="timeline__role">PCAP – Programming Essentials in Python</h3>
+            <p class="timeline__place">Centro de Formación Profesional N° 36</p>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__card">
+            <p class="timeline__date">1° cuatrimestre 2024</p>
+            <h3 class="timeline__role">Big Data / Data Analytics</h3>
+            <p class="timeline__place">Codo a Codo</p>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__card">
+            <p class="timeline__date">2° cuatrimestre 2024</p>
+            <h3 class="timeline__role">Iniciación a la Programación con Python</h3>
+            <p class="timeline__place">Talento Tech</p>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <span class="timeline__dot timeline__dot--active" aria-hidden="true"></span>
+          <div class="timeline__card timeline__card--active">
+            <p class="timeline__date timeline__date--active"><span class="badge">en curso</span><span class="timeline__date-text">Desde marzo 2025</span></p>
+            <h3 class="timeline__role">Tecnicatura Superior en Desarrollo de Software</h3>
+            <p class="timeline__place">Instituto de Formación Técnica Superior N° 29</p>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__card">
+            <p class="timeline__date">2° cuatrimestre 2025</p>
+            <h3 class="timeline__role">Automation Testing</h3>
+            <p class="timeline__place">Talento Tech</p>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__card">
+            <p class="timeline__date">2° cuatrimestre 2025</p>
+            <h3 class="timeline__role">Testing QA</h3>
+            <p class="timeline__place">Talento Tech</p>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <span class="timeline__dot timeline__dot--active" aria-hidden="true"></span>
+          <div class="timeline__card timeline__card--active">
+            <p class="timeline__date timeline__date--active"><span class="badge">en curso</span><span class="timeline__date-text">Desde febrero 2026</span></p>
+            <h3 class="timeline__role">Licenciatura en Ciberdefensa</h3>
+            <p class="timeline__place">Facultad de la Defensa Nacional</p>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__card">
+            <p class="timeline__date">1° cuatrimestre 2026</p>
+            <h3 class="timeline__role">Machine Learning</h3>
+            <p class="timeline__place">Talento Tech</p>
+          </div>
+        </li>
+
+      </ol>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section id="contacto" class="contact" aria-labelledby="contact-title">
+      <p class="eyebrow">$ contact --send</p>
+      <h2 id="contact-title">Contacto</h2>
+      <p class="contact__intro">¿Querés escribirme por un proyecto, una consulta académica o simplemente para charlar sobre datos, testing o seguridad? Completá el formulario.</p>
+
+      <div class="contact__grid">
+        <form class="contact__form" action="#" method="post">
+          <div class="field">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Enviar mensaje</button>
+        </form>
+
+        <div class="contact__alt">
+          <p>También me encontrás en:</p>
+          <a class="contact__link" href="https://github.com/SabatoCom24212" target="_blank" rel="noopener noreferrer">
+            <svg class="icon-github" viewBox="0 0 16 16" width="20" height="20" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+              1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+              0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68
+              0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15
+              0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38
+              A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+            </svg>
+            github.com/SabatoCom24212
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p class="site-footer__status"><span class="status-dot" aria-hidden="true"></span>status: aprendiendo &middot; uptime: siempre</p>
+    <p>&copy; 2026 Ángel Sabato — hecho con HTML y CSS.</p>
+  </footer>
+
+</body>
+</html>
